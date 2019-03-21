@@ -23,8 +23,12 @@ The system is to be built with KOTLIN, and Firebase for database. It calculates 
 
 # Module Descrpition
 
-# login page and design (Ajay kumar)
-   
+# Login page and design (Ajay kumar)
+      
+      The given email id and password should verify with firebase authentication and if it matches then it will be logged in successfully to the client details page or else it will display as recheck the given email and password.
+      The policy details displaying page with search box is made. After giving the policy number it fetches from the firebase and displays in the same page.
+      The UI page design was made with Android SDK. In the UI page, the user authentication with user credentials is done.
+      
    
   
 
