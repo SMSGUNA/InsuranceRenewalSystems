@@ -1,4 +1,13 @@
-# Insurance Renewal Systems
+  
+# Team Members
+
+AJAY KUMAR S 15CSA04 (711715104004) 
+
+DEEPAK KUMAR D 15CSA13 (711715104013) 
+
+GUNA S 15CSA82 (711715104303)
+
+# Agent Insurance Renewal 
 “The Agent Insurance Renewal” is an android based application. Its helps to reduce the work of the client and to keep them updated about
 the date of expiry and also the status of their policy. The agent can search any client with their respective Policy number or 
 the Vehicle number registered with the policy. Having an insurance policy reduces the financial burden in the case of loss or damages 
@@ -18,6 +27,16 @@ Generate a renewal notice based on Taxes, agent commission
 
 Inclusion of payments
 
+# Minimum Requirment
+
+Android studio 3.3.2
+
+Kotlin 1.2
+
+Database(Firebase)
+
+Operating system  :	Windows 7/8/10
+
 # Advantages
 The system is to be built with KOTLIN, and Firebase for database. It calculates the renewal amount with respect to Government updates. Provide SMS and Email notification based on the expiry of the renewal date. Generate a renewal notice with Included taxes, no claim bonus and other commissions. Payment will be done to the Insurance company with the help of the agent.
 
@@ -29,9 +48,6 @@ The system is to be built with KOTLIN, and Firebase for database. It calculates 
   
   The policy details displaying page with search box is made. After giving the policy number it fetches from the firebase and displays in the same page.
       The UI page design was made with Android SDK. In the UI page, the user authentication with user credentials is done.
-      
-   
-  
 
   # Firebase database (Guna)
  To retrive data from the firebase first we will create an object and get the data from FireBase database through library and it will get connected.It will be invoked through Reference.The data from the object number will be fetched and copied into the reference(Policy number).Inside the model class we have 18 fields.Through On-ChildAdd function the details of the customers will be fetched.These details will be added to model class and list will be generated and displayed.
@@ -72,16 +88,6 @@ The system is built in such a way that it sends the notification based on the ta
  # Payment Integration
     
   The inclusion of the payments is that all the miscellaneous payments regarding the renewal of the policies which are undertaken by the client or customer for their motor vehicle. The payment can be done with the revised GST amount and the other taxes.
-
-
-  
-# Team Members
-
-AJAY KUMAR S 15CSA04 (711715104004) 
-
-DEEPAK KUMAR D 15CSA13 (711715104013) 
-
-GUNA S 15CSA82 (711715104303)
 
 # Project Status
 
