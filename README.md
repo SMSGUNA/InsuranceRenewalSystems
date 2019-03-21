@@ -11,8 +11,11 @@ notify the client again. The insurance can also be renewed by the client through
 
 # Module Splitup
 Firebase authentication and fetch Realtime database 
+
 Provide an Email /SMS alert feature for agent 
+
 Generate a renewal notice based on Taxes, agent commission 
+
 Inclusion of payments
 
 # Advantages
