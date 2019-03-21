@@ -21,6 +21,34 @@ Inclusion of payments
 # Advantages
 The system is to be built with KOTLIN, and Firebase for database. It calculates the renewal amount with respect to Government updates. Provide SMS and Email notification based on the expiry of the renewal date. Generate a renewal notice with Included taxes, no claim bonus and other commissions. Payment will be done to the Insurance company with the help of the agent.
 
+# Module Descrpition
+   Firebase database (Guna)
+ 
+ The Firebase Realtime Database is a cloud-hosted database. Data is stored as JSON and synchronized in realtime to every connected client. When you build cross-platform apps with our iOS, Android, and JavaScript SDKs, all of your clients share one Realtime Database instance and automatically receive updates with the newest data. The Realtime database which includes the details such as
+
+•	Policy number
+
+•	Name of insurer
+
+•	Sum insured
+
+•	Mail
+
+•	Vehicle make, Model, Year
+
+•	Vehicle number
+
+•	Issued date, Expiry date
+
+•	Ex coverage amount, premium
+
+•	Tax id, amount, percent
+
+ Email and SMS notification (Deepak kumar)
+ 
+ GST Calculation
+ 
+
 # Team Members
 
 AJAY KUMAR S 15CSA04 (711715104004) 
