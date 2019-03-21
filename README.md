@@ -22,8 +22,15 @@ Inclusion of payments
 The system is to be built with KOTLIN, and Firebase for database. It calculates the renewal amount with respect to Government updates. Provide SMS and Email notification based on the expiry of the renewal date. Generate a renewal notice with Included taxes, no claim bonus and other commissions. Payment will be done to the Insurance company with the help of the agent.
 
 # Module Descrpition
+
+# login page and design (Ajay kumar)
+   
+   
+  
+
   # Firebase database (Guna)
  To retrive data from the firebase first we will create an object and get the data from FireBase database through library and it will get connected.It will be invoked through Reference.The data from the object number will be fetched and copied into the reference(Policy number).Inside the model class we have 18 fields.Through On-ChildAdd function the details of the customers will be fetched.These details will be added to model class and list will be generated and displayed.
+ 
  The Firebase Realtime Database is a cloud-hosted database. Data is stored as JSON and synchronized in realtime to every connected client. When you build cross-platform apps with our iOS, Android, and JavaScript SDKs, all of your clients share one Realtime Database instance and automatically receive updates with the newest data. The Realtime database which includes the details such as
 
 •	Policy number
@@ -45,12 +52,15 @@ The system is to be built with KOTLIN, and Firebase for database. It calculates 
 •	Tax id, amount, percent
 
  # Email and SMS notification (Deepak kumar)
+ 
  In mainfest to send a SMS message  first we need to get SMS permission and similarly to send a mail we need to get Internet permission.
 There is format to send SMS message called "SMS SEND ACTION".If we use this format it automatically sends message to that particular person ,this details are retrived from FireBase.If we click OK button the message will be send automatically.Inoder to send a mail we will set a mail ID in URI the same SEND ACTION is used to send a mail.Two intent is passed one is e-mail to whom we send and another one is subject and Body of the Content what we display.If we use START ACTIVITY the SMS and e-mail is send to the client.
  
  
-# GST Calculation
- 
+# GST Calculation (Guna)
+
+The system is built in such a way that it sends the notification based on the taxes revised by the Government and it calculates and sends the premium amount based on the agent commission. For example, if the percentage of the GST for the insurance renewal is 5% the amount for the renewal will be calculated along with that percentage. 
+
 
 # Team Members
 
