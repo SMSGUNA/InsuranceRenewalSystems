@@ -24,6 +24,7 @@ The system is to be built with KOTLIN, and Firebase for database. It calculates 
 # Module Descrpition
   # Firebase database (Guna)
  To retrive data from the firebase first we will create an object and get the data from FireBase database through library and it will get connected.It will be invoked through Reference.The data from the object number will be fetched and copied into the reference(Policy number).Inside the model class we have 18 fields.
+ 
  The Firebase Realtime Database is a cloud-hosted database. Data is stored as JSON and synchronized in realtime to every connected client. When you build cross-platform apps with our iOS, Android, and JavaScript SDKs, all of your clients share one Realtime Database instance and automatically receive updates with the newest data. The Realtime database which includes the details such as
 
 •	Policy number
@@ -45,11 +46,14 @@ The system is to be built with KOTLIN, and Firebase for database. It calculates 
 •	Tax id, amount, percent
 
  # Email and SMS notification (Deepak kumar)
+ Based on the expiry date refered from client database , it alerts the client through SMS/Email 30 days in advance.In the alert message the insurance amount along with current Gst to be paid.
+
  In mainfest to send a SMS message  first we need to get SMS permission and similarly to send a mail we need to get Internet permission.
 There is format to send SMS message called "SMS SEND ACTION".If we use this format it automatically sends message to that particular person ,this details are retrived from FireBase.If we click OK button the message will be send automatically.Inoder to send a mail we will set a mail ID in URI the same SEND ACTION is used to send a mail.Two intent is passed one is e-mail to whom we send and another one is subject and Body of the Content what we display.If we use START ACTIVITY the SMS and e-mail is send to the client.
  
  
 # GST Calculation
+
  
 
 # Team Members
