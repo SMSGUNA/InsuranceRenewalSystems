@@ -1,4 +1,4 @@
-# InsuranceRenewalSystems
+# Insurance Renewal Systems
 “The Agent Insurance Renewal” is an android based application. Its helps to reduce the work of the client and to keep them updated about
 the date of expiry and also the status of their policy. The agent can search any client with their respective Policy number or 
 the Vehicle number registered with the policy. Having an insurance policy reduces the financial burden in the case of loss or damages 
@@ -21,7 +21,7 @@ Inclusion of payments
 # Advantages
 The system is to be built with KOTLIN, and Firebase for database. It calculates the renewal amount with respect to Government updates. Provide SMS and Email notification based on the expiry of the renewal date. Generate a renewal notice with Included taxes, no claim bonus and other commissions. Payment will be done to the Insurance company with the help of the agent.
 
-# Module Descrpition
+# Module Description
 
    # Login page and design (Ajay kumar)
       
