@@ -24,7 +24,9 @@ The system is to be built with KOTLIN, and Firebase for database. It calculates 
 # Team Members
 
 AJAY KUMAR S 15CSA04 (711715104004) 
+
 DEEPAK KUMAR D 15CSA13 (711715104013) 
+
 GUNA S 15CSA82 (711715104303)
 
 # Project Status
