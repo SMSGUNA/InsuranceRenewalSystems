@@ -21,7 +21,7 @@ Inclusion of payments
 # Advantages
 The system is to be built with KOTLIN, and Firebase for database. It calculates the renewal amount with respect to Government updates. Provide SMS and Email notification based on the expiry of the renewal date. Generate a renewal notice with Included taxes, no claim bonus and other commissions. Payment will be done to the Insurance company with the help of the agent.
 
-# Module Description
+# Task Description
 
    # Login page and design (Ajay kumar)
       
@@ -67,6 +67,14 @@ There is format to send SMS message called "SMS SEND ACTION".If we use this form
 The system is built in such a way that it sends the notification based on the taxes revised by the Government and it calculates and sends the premium amount based on the agent commission. For example, if the percentage of the GST for the insurance renewal is 5% the amount for the renewal will be calculated along with that percentage. 
 
 
+# Pending Task
+
+ # Payment Integration
+    
+  The inclusion of the payments is that all the miscellaneous payments regarding the renewal of the policies which are undertaken by the client or customer for their motor vehicle. The payment can be done with the revised GST amount and the other taxes.
+
+
+  
 # Team Members
 
 AJAY KUMAR S 15CSA04 (711715104004) 
