@@ -85,6 +85,11 @@ The system is built in such a way that it sends the notification based on the ta
 # Demo video
 
  https://www.youtube.com/watch?v=r_RXWAzcceU&feature=youtu.be
+ 
+ # Future Enhancement
+  
+  Once the insurance has been renewaled, the new insurance policy pdf will be generated automatically and send to the customer via Email.
+
 
 # Pending Task
 
